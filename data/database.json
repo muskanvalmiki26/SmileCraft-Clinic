@@ -1,0 +1,60 @@
+{
+  "appointments": [
+    {
+      "id": "SC-MUCCCZTX-6DF689",
+      "name": "muskan",
+      "phone": "1324568945",
+      "email": "mus@gmail.com",
+      "doctorId": "dr-kavita",
+      "serviceId": "whitening",
+      "preferredDate": "2026-09-24",
+      "preferredTime": "11:00",
+      "duration": 60,
+      "message": "",
+      "status": "cancelled",
+      "createdAt": "2026-09-22T07:17:16.005Z",
+      "updatedAt": "2026-09-22T07:20:52.764Z",
+      "patientId": "PAT-MUCCCZTX-66B06E"
+    },
+    {
+      "id": "SC-MUCCGETM-575389",
+      "name": "shivangi",
+      "phone": "8945612323",
+      "email": "shiv@gmail.com",
+      "doctorId": "dr-kavita",
+      "serviceId": "cosmetic",
+      "preferredDate": "2026-09-24",
+      "preferredTime": "12:00",
+      "duration": 60,
+      "message": "",
+      "status": "confirmed",
+      "createdAt": "2026-09-22T07:19:55.402Z",
+      "updatedAt": "2026-09-22T07:20:49.170Z",
+      "patientId": "PAT-MUCCGETM-205905"
+    }
+  ],
+  "patients": [
+    {
+      "id": "PAT-MUCCCZTX-66B06E",
+      "name": "muskan",
+      "phone": "1324568945",
+      "email": "mus@gmail.com",
+      "createdAt": "2026-09-22T07:17:16.005Z"
+    },
+    {
+      "id": "PAT-MUCCGETM-205905",
+      "name": "shivangi",
+      "phone": "8945612323",
+      "email": "shiv@gmail.com",
+      "createdAt": "2026-09-22T07:19:55.402Z"
+    }
+  ],
+  "leaves": [
+    {
+      "id": "LV-MUCCAW6Q-6EF0C4",
+      "doctorId": "dr-kavita",
+      "date": "2026-09-25",
+      "reason": "out of station"
+    }
+  ]
+}
