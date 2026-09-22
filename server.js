@@ -1,6 +1,9 @@
+if (typeof process.loadEnvFile === 'function') process.loadEnvFile();
 const http=require('http'),fs=require('fs'),path=require('path'),crypto=require('crypto');
 const PORT=process.env.PORT||3000,ROOT=__dirname,DB=path.join(ROOT,'data','database.json');
-const ADMIN_EMAIL='shrishti@smilecraft',ADMIN_PASSWORD='shrishti12',ADMIN_TOKEN='smilecraft-admin-session-2026';
+const ADMIN_EMAIL='admin@smilecraft.local',
+ADMIN_PASSWORD='Admin@12345',
+ADMIN_TOKEN='smilecraft-admin-session-2026';
 const services=[
 {id:'checkup',name:'General Checkup',duration:30,price:500},{id:'cleaning',name:'Teeth Cleaning',duration:45,price:1500},{id:'rootcanal',name:'Root Canal Treatment',duration:60,price:5000},{id:'implant',name:'Dental Implants',duration:90,price:15000},{id:'braces',name:'Braces & Aligners',duration:45,price:3000},{id:'whitening',name:'Teeth Whitening',duration:60,price:3500},{id:'cosmetic',name:'Cosmetic Dentistry',duration:60,price:4000},{id:'emergency',name:'Emergency Care',duration:30,price:800},{id:'other',name:'Other',duration:30,price:500}];
 const doctors=[
